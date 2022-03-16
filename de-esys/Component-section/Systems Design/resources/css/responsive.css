@@ -1,0 +1,161 @@
+@media (min-width: 992px)  {
+   .ppp{
+    font-size: 23px;
+   }
+   .alert h2{
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   .list {
+    margin-right: 18px;
+}
+
+.percentage{
+    font-size: 8px;
+   }
+
+   .orders{
+    padding-top: 44px;
+    margin: 0 0px;
+   }
+   
+}
+
+
+
+
+/* Taplet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .ppp{
+        font-size: 15px;
+   }
+
+   .orders{
+    padding-top: 44px;
+    margin-right: 5px;
+   }
+
+   .count_icon{
+    width: 32%;
+    margin-left: 9px;
+   }
+
+   #count{
+    font-size: 23px;
+   }
+
+   .percentage{
+    font-size: 7px;
+   }
+
+   .alert h2{
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   .list{
+    margin-right: 22px;
+    font-weight: normal;
+   }
+
+   .circle-info {
+    height: 177px;
+    width: 100%;
+   }
+
+   .img-makeen {
+    width: 86%;
+    margin-top: 37px;
+    margin-left: 7px;
+   }
+
+   .img-technical-support  {
+    width: 57%;
+    margin-top: 21px;
+    margin-left: 25px;
+   }
+   .img-checklist {
+    width: 57%;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+   .img-CustomerSupport {
+    width: 55%;
+    margin-top: 24px;
+    margin-left: 21px;
+}
+   .img-listcall {
+    width: 46%;
+    margin-top: 26px;
+    margin-left: 24px;
+}
+  .img-system{
+    width: 47%;
+    padding-top: 29px;
+    margin-left: 26px;
+}
+
+  .img-cyber {
+    width: 47%;
+    padding-top: 29px;
+    margin-left: 26px;
+}
+  .card-title {
+    font-size: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+}
+
+/* phone */
+@media (max-width: 767px) {
+
+    .ppp {
+        font-size: 23px;
+        font-weight: normal;
+    }
+    .pp{
+        font-size: 2.5px;
+    }
+
+    .percentage{
+        font-size: 7px;
+       }
+
+       .new_ord {
+        width: 10%;
+        float: right;
+        margin-left: 11px;
+       }
+
+       .alert h2{
+        font-size: 17px;
+        
+       }
+
+       .alert ul li {
+        font-size: 17px;
+        font-weight: normal;
+       }
+
+       .alert ul {
+        padding-right: 13px;
+       }
+    
+       .single-chart{
+        width: 191px;
+       }
+
+       .orders{
+        width: 208px;
+       }
+}
+
+
+
+
+

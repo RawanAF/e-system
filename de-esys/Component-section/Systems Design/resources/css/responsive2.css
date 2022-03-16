@@ -1,0 +1,763 @@
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: rgb(82, 82, 82);
+        
+    }
+}
+
+/* Extra large screens, TV */
+@media (min-width: 1201px) {
+
+    /* #stepsformsection{
+        margin: 100px 0px !important;
+    } */
+    .ppp{
+        font-size: 23px;
+       }
+       .alert h2{
+        font-size: 20px;
+        font-weight: bold;
+       }
+    
+
+       .toplogincontainer{
+           margin-top: 180px;
+       }
+       .list {
+        margin-right: 18px;
+    }
+    
+    .percentage{
+        font-size: 8px;
+       }
+    
+       .orders{
+        padding-top: 44px;
+        margin: 0 0px;
+       }
+
+
+       .foursys{
+        margin-top: 212px;
+    }
+
+
+    .alert2 {
+        width: 70%;
+    }
+
+    #msform fieldset{
+        padding: 0px 70px;
+    }
+
+    .btnlogindiv{
+        padding-top: 100px;
+    }
+
+    .green-pic img {
+       
+        width: 248px !important;
+    }
+
+
+    .text-employee{
+        margin-top: 70px;
+      }
+}
+
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width:1200px ) {
+    .ppp{
+        font-size: 20px;
+       }
+       .alert h2{
+        font-size: 20px;
+        font-weight: bold;
+       }
+    
+       .list {
+        margin-right: 18px;
+    }
+
+    .btnlogindiv{
+        padding-top: 100px;
+    }
+    
+    .percentage{
+        font-size: 8px;
+       }
+    
+      
+       .toplogincontainer{
+        margin-top: 180px;
+    }
+       .orders{
+        padding-top: 44px;
+        margin: 0 0px;
+        width: 181px;
+        text-align: center;
+       }
+
+       .count_icon {
+        width: 37px;
+       }
+       .foursys{
+        margin-top: 64px;
+    }
+
+
+    .alert2 {
+        width: 70%;
+    }
+
+    #msform fieldset{
+        padding: 0px 70px;
+    }
+    
+    .green-pic img {
+       
+        width: 148px !important;
+    }
+
+    .text-employee{
+        margin-top: 70px;
+      }
+
+}
+
+/* Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    text.ppp{
+        font-size: 16px;
+       }
+       .alert h2{
+        font-size: 20px;
+        font-weight: bold;
+       }
+
+       .toplogincontainer{
+        margin-top: 120px;
+    }
+    
+    .btnlogindiv{
+        padding-top: 100px;
+        padding-right: 5px;
+    }
+
+       .list {
+        margin-right: 18px;
+    }
+    
+    .percentage{
+        font-size: 8px;
+       }
+    
+       .orders{
+        padding-top: 44px;
+        margin: 0 0px;
+        width: 166px;
+        text-align: center;
+       }
+       .count-cards {
+        margin-top: 125px;
+       }
+
+       .count_icon {
+        width: 34px;
+       }
+   
+       .ct-socials {
+        display: none;
+    }
+
+    .info-img h1{
+        padding-left: 13px;
+    }
+
+    .user-details{
+        margin-right: 394px;
+    }
+
+         .user-details ul {
+          margin-right: -51px;
+       }
+
+       .user-details ul h6 {
+        font-size: 15px;
+       }
+       .info-img .seperator img {
+            margin-right: 15px;
+            width: 6px;
+       }
+       .info-img h1 {
+        font-size: 27px;
+        margin-top: 3px;
+       }
+    
+       .foursys{
+        margin-top: 64px;;
+    }
+    footer  {
+        margin-top: 676px;
+    }
+
+    .alert2 {
+        width: 100%;
+    }
+     #msform fieldset{
+        padding: 0px 40px;
+    }
+
+    .green-pic img {
+       
+        width: 207px !important;
+    }
+
+
+    .text-employee{
+        margin-top: 44px;
+      }
+    
+      .card-login {
+        margin-top: 150px;
+    }
+}
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    text.ppp{
+        font-size: 15px;
+        margin-right: -24px;
+   }
+
+   .orders{
+    padding-top: 44px;
+    margin: 0 auto;
+    margin-top: 7px;
+   }
+
+   .count-cards {
+    margin-top: 40px;
+   }
+
+   .foursys{
+    margin-top: 81px;
+}
+
+   .count_icon{
+    width: 24%;
+    margin-left: 9px;
+   }
+
+   #count{
+    font-size: 23px;
+   }
+
+   .percentage{
+    font-size: 7px;
+   }
+
+   .toplogincontainer{
+    margin-top: 120px;
+}
+
+   .alert h2{
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   .list{
+    margin-right: 22px;
+    font-weight: normal;
+   }
+
+   .circle-info {
+    height: 177px;
+    width: 100%;
+   }
+
+   .img-makeen {
+    width: 86%;
+    /* margin-top: 37px;
+    margin-left: 7px; */
+   }
+
+   .img-technical-support  {
+    width: 57%;
+    margin-top: 20px;
+    margin-left: 46px;
+   }
+
+   .img-checklist {
+    width: 57%;
+    margin-top: 20px;
+    margin-left: 52px;
+}
+
+  .img-cyber {
+    width: 54%;
+    padding-top: 4px;
+    margin-left: 54px;
+
+}
+  .card-title {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.single-chart{
+    margin: 7px auto;
+}
+
+.alert{
+    margin-top: 20px;
+}
+
+.orders{
+    width: 180px;
+    text-align: center;
+}
+
+   .ct-socials {
+       display: none;
+   }
+
+   .user-details ul {
+    margin-right: -218px;
+   }
+
+   .user-details ul h6 {
+    font-size: 13px;
+   }
+
+   .info-img img {
+    width: 60px;
+   }
+
+   .info-img h1 {
+    font-size: 21px;
+    margin-top: 8px;
+   }
+
+   .info-img .seperator img {
+    margin-right: -102px;
+    width: 5px;
+   }
+
+   .log-out button.bttn-pill.bttn-md.bttn-primary{
+    margin-left: 25px;
+  }
+  
+  a.dropdown-item {
+    text-align: right;
+   }
+  
+   .navbar-nav{
+    text-align: initial;
+   }
+
+
+   .green-pic img {
+       
+    width: 100px !important;
+}
+
+   .text-employee {
+        margin-top: 8px;
+        margin-left: 161px;
+        margin-bottom: 20px;
+    }
+
+    .btnlogindiv {
+        margin-right: -143px;
+    }
+
+    .card-login {
+        margin-top: 150px;
+    }
+   
+}
+
+/* Mobile devices */
+@media (min-width: 321px) and (max-width: 480px) {
+    text.ppp {
+        font-size: 15px;
+        margin-right: 2px;
+        font-weight: normal;
+    }
+    .pp{
+        font-size: 2.5px;
+    }
+
+    .toplogincontainer{
+        margin-top: 50px;
+    }
+
+    .percentage{
+        font-size: 7px;
+       }
+
+       .new_ord {
+        width: 10%;
+        float: right;
+        margin-left: 11px;
+       }
+
+       .alert h2{
+        font-size: 17px;
+        
+       }
+
+       .alert ul li {
+        font-size: 15px;
+        font-weight: normal;
+       }
+
+       .alert ul {
+        padding-right: 13px;
+       }
+
+    .count-cards {
+        margin-top: 32px;
+    }
+    
+       .single-chart{
+        width:140px;
+        margin: 7px auto;
+        border-radius: 25px;
+        background: white;
+        padding: 10px;
+        height: auto;
+        box-shadow: -5px 4px 12px -5px;
+       }
+
+       .orders{
+        width:175px;
+        margin: 0 auto;
+        margin-top: 7px;
+       }
+
+       .card-circle{
+           height: 200px;
+           width: 200px;
+       }
+
+       .alert{
+        margin-top: 15px;
+       }
+
+       .list {
+        margin-right: 5px;
+    }
+    .user-icon {
+        margin-right: -102px;
+        margin-top: 62px;
+    }
+
+    .user_id {
+        margin-right: -77px;
+    }
+
+    .navbar img {
+        height: 83px;
+        width: 210px;
+        top: 18px;
+        right: -13px;
+    }
+  
+
+    .ct-socials {
+        display: none;
+    }
+
+    footer p {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    .info .card{
+        height: 96px;
+    }
+    .info-img img{
+        height: 96px;
+        width: 44px;
+    }
+
+    .info-img h1{
+        font-size: 22px !important;
+        margin-top: 9px;
+        padding-left: 10px;
+    }
+    
+    .info-img .seperator img{
+        display: none;
+    }
+    .log-out button.bttn-pill.bttn-md.bttn-primary{
+        display: none;
+    }
+    .user-details{
+        display: none;
+    }
+    a.nav-link {
+        font-size: 14px;
+    }
+
+    a.dropdown-item {
+        text-align: right;
+        font-size: 14px;
+    }
+    
+  
+    section#testimonials {
+        display: none;
+    }
+
+    .foursys{
+        margin-top: 70px;
+    }
+
+    .twocards{
+        margin-top: 100px;
+        position: unset;
+    }
+
+    .navbar nav{
+        direction: ltr;
+    }
+    .navbar-nav{
+        text-align: initial;
+       }
+
+       .img-cyber {
+        width: 50%;
+        padding-top: 22px;
+        margin-left: 54px;
+       margin-top: 12px;
+    }
+
+    .green-pic img {
+        width: 136px !important;
+        height: 200px;
+    }
+
+    .logintxt {
+        font-size: 21px;
+    }
+
+    .text-employee {
+        margin-top: 30px;
+    }
+    
+    .btnlogindiv
+    {
+        margin-top: 36px;
+    }
+    .btnlogindiv button span 
+{
+    font-size: 12px;
+}
+.btn-hover {
+    margin-right: -3px;
+    height: 70%;
+    padding-right: 7px;
+    padding-left: 8px;
+}
+
+ .card-login {
+     margin-top: 150px;
+     margin-right: -6px;
+     margin-left: -11px;
+
+ }
+
+   .login-icon {
+       display: none;
+   }
+   
+}
+/* Mobile devices */
+@media (max-width: 320px) {
+    text.ppp {
+        font-size: 15px;
+        margin-right: 7px;
+        font-weight: normal;
+    }
+    .pp{
+        font-size: 2.5px;
+    }
+
+    .percentage{
+        font-size: 7px;
+       }
+
+       .new_ord {
+        width: 13%;
+        float: right;
+        margin-left: 11px;
+       }
+       .alert{
+        width: 100%;
+        padding: 20px 0;
+        margin-top: 20px;
+       }
+
+       .alert h2{
+        font-size: 17px;
+        
+       }
+
+       .alert ul li {
+        font-size: 15px;
+        padding-top: 5px;
+        font-weight: normal;
+       }
+
+       .alert ul {
+        padding-right: 13px;
+       }
+
+       .count-cards {
+        margin-top: 29px;
+       }
+    
+       .single-chart{
+        width: 149px;
+        margin-top: 10px;
+       }
+
+       .orders{
+        width: 208px;
+        margin: 0 auto;
+        margin-top: 10px;
+       }
+
+       .list {
+        margin-right: 0px;
+    }
+    .orders{
+        width: 173px;
+    }
+
+    .count_icon {
+        width: 35px;
+    }
+    .user-icon {
+        margin-right: -102px;
+        margin-top: 62px;
+    }
+    .navbar img {
+        height: 75px;
+        width: 198px;
+        top: 23px;
+        right: -16px;
+    }
+
+    .info-img .seperator img{
+        display: none;
+    }
+
+    .log-out button.bttn-pill.bttn-md.bttn-primary{
+        display: none;
+    }
+    .user-details{
+        display: none;
+    }
+    
+    
+    section#testimonials {
+        display: none;
+    }
+    .foursys {
+        margin-top:70px;
+    }
+
+
+    .ct-socials {
+        display: none;
+    }
+
+    footer p {
+        padding-right: 2px;
+        font-size: 12px;
+    }
+
+    .info .card{
+        height: 66px;
+    }
+    .info-img img{
+        height: 67px;
+        width: 39px;
+    }
+
+    .info-img h1{
+        font-size: 18px !important;
+        margin-top: -3px;
+        padding-left: 10px;
+    }
+    a.nav-link {
+        font-size: 14px;
+    }
+
+    a.dropdown-item {
+        text-align: right;
+        font-size: 14px;
+        
+    }
+
+
+    .navbar nav{
+        direction: ltr;
+    }
+    .navbar-nav{
+        text-align: initial;
+       }
+
+       .green-pic img {
+       
+        width: 50px !important;
+    }
+
+    .logintxt {
+        font-size: 20px;
+    }
+
+    .card-login {
+        margin-top: 200px;
+    }
+
+
+    
+   .green-pic img {
+       
+    width: 100px !important;
+}
+
+   .text-employee {
+        margin-top: 8px;
+        /* margin-left: 161px; */
+        margin-bottom: 20px;
+    }
+
+    .btnlogindiv {
+        margin-right: -23px;
+    }
+
+    .card-login {
+        margin-top: 150px;
+    }
+
+    .btnlogindiv span {
+        font-size: 9px;
+    }
+
+    .nomargin{
+        margin-right: -10px;
+        margin-left: -13px;
+    }
+
+    .user_id {
+       display: none;
+       }
+}
+

@@ -1,0 +1,93 @@
+
+.sysbtn{
+  background: #0b5438;
+  color: aliceblue;
+}
+
+.sysbtn:hover{
+  background: #fff;
+  color: #0b5438;
+  border: 1px solid #0b5438;
+}
+
+.form-check-input:checked {
+  background-color: #0b5438 !important;
+  border-color: #0b5438;
+}
+
+
+.form-check-input {
+  background-color: #0b5438 !important;
+  border-color: #0b5438;
+}
+
+
+#example11_filter{
+  display: inline;
+}
+
+#example11_length{
+  display: inline;
+}
+
+#example11_info{
+  text-align: right;
+}
+
+#example11_paginate{
+  text-align: center;
+}
+
+
+#example11_previous {
+  background-color: #fff; 
+  border: none;
+  color: #0b5438;
+  border: 1px solid #0b5438;
+  padding: 5px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#example11_next{
+  background-color: #fff; 
+  border: none;
+  color: #0b5438;
+  border: 1px solid #0b5438;
+  padding: 5px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ .current{
+  background-color: #0b5438; 
+  border: none;
+  color: #fff;
+  border: 1px solid #0b5438;
+  padding: 5px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+  border: 1px solid #0b5438;
+  background: #0b5438;
+  color: #fff;
+}
+
+
+/* timeline */
+.error{
+  color: red;
+  font-family: "Tajawal";
+}
+
+.form-select {
+  background-position: left.75rem center;
+}

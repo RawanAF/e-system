@@ -1,0 +1,115 @@
+.nav-item:hover {
+    background: #0b5438;
+  }
+
+
+  .dropdown-item:focus{
+    color: #16181b;
+    text-decoration: none;
+    background-color: sienna;
+  }
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: red;
+  }
+  .nav-item:hover .nav-link {
+    color: #fff !important;
+  }
+
+  .navbar-nav{
+      margin: 0px;
+  }
+
+  .navbar-nav .nav-item{
+    margin-top: 5px;
+}
+
+
+nav ul li{
+    margin-right: 3px !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    padding-right: 15px;
+  }
+
+
+  .collapse.show {
+    display: block;
+    min-height: 966px;
+  }
+
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    border: none;
+  }
+
+  .dropdown-toggle::after {
+    font-family: 'Font Awesome 6 Free';
+    content: "\f104";
+    font-weight: 900;
+    float: left;
+    margin-left: 22px;
+    border-top: none;
+    font-size: 16px;
+  }
+
+
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0b5438;
+  }
+
+  a.dropdown-item {
+    text-align: right;
+    padding: 12px;
+  }
+
+  .under-line span{
+    font-size: 21px !important;
+  }
+
+  .form-control{
+    padding: 0px;
+  }
+
+
+  .comp-card i {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 17px 0;
+    font-size: 18px;
+    text-shadow: 0 6px 8px rgba(62,57,107,.18);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+
+  .bg-c-green {
+    background: #09442fd4;
+  }
+
+  .text-c-green{
+    color: #09442f;
+  }
+
+
+  .bg-c-yellow {
+    background: #f2ad4d;
+  }
+
+  .text-c-yellow{
+    color: #f2ad4d;;
+  }
+
+  .cardshadow{
+    box-shadow: 0 0 15px 0 rgba(43,43,43,.1),0 11px 6px -7px rgba(43,43,43,.1);
+  }

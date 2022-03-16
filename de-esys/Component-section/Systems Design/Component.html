@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <!--  meta  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+  <!-- fonts -->
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap">
+  <!--  CUSTOM STYLE -->
+  <link rel="stylesheet" href="resources/css/jquery-ui.css">
+  <link rel="stylesheet" href="resources/css/style.css">
+
+  <!-- RESPONSIVE CSS -->
+  <link rel="stylesheet" href="resources/css/responsive2.css">
+
+
+  <link rel="stylesheet" href="vendors/css/Diab.css">
+ 
+  <title>الأنظمة الإلكترونية</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-* navbar-light bg-light"
+    style="padding:0px;position: absolute;z-index: 1000;text-align: right;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <i class="fa fa-home"></i> الرئيسية <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> <i class="fa fa-check-circle"></i> طلبات الإدارات </a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="system-page2.html"> <i class="fa fa-check-circle"></i> رصيد أول مدة</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-business-time"></i>
+            الإستلام
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">استلام مؤقت</a>
+            <a class="dropdown-item" href="#">مذكرة استلام</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-file-alt"></i>
+            المحاضر
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">محضر فحص</a>
+            <a class="dropdown-item" href="#">محضر استلام</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-file-alt"></i>
+            التقارير</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fa fa-user"></i>
+            دليل المستخدم</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="info">
+      <div class="card md-3 ">
+        <div class="info-img">
+          <img src="resources/images/AdobeStock_117127744.jpeg" alt="">
+          <h1>نظام المستودعات</h1>
+          <div class="seperator">
+            <img src="resources/images/AdobeStock_117127744.jpeg" alt="">
+            <div class="user-details">
+              <div class="user-icon user-i">
+                <ul>
+                  <li><i class="fa fa-user"></i>
+                    <h6>اسم المستخدم</h6>
+                  </li>
+                  <li>
+                   
+                    <select name="" id="" class="form-control">
+                      <option value="">إختر النظام </option>
+                      <option value="">نظام المستودعات</option>
+                      <option value="">إختر النظام </option>
+                      <option value="">إختر النظام </option>
+                      <option value="">إختر النظام </option>
+                      <option value="">إختر النظام </option>
+                      <option value="">إختر النظام </option>
+                      <option value="">إختر النظام </option>
+                      <option value="">إختر النظام </option>
+                    </select>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="log-out"><a href="index.html"><button class="bttn-pill bttn-md bttn-primary ">خروج</button></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+        <div class="container " style="margin-top: 70px;">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <p style="color: #0b5438;font-family: Tajawal;" > مكونات للانظمة</p>
+                </div>
+                <div class="card-body text-right">
+                    <div class="card cardshadow">
+                      <div class="card-body">
+                        <!-- DataTable -->
+                        <table class="table table-bordered" id="example11">
+                          <thead>
+                              <th scope="col">الإســـم</th>
+                              <th scope="col">رقم الهاتف</th>
+                              <th scope="col">العمليات</th>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>
+                                      Diab Hayder
+                                  </td>
+                                  <td>
+                                      0545783545
+                                  </td>
+                                  <td>
+                                    <button class="btn btndisplay"><i class="fas fa-check-circle icon1"></i>عرض</button>
+                                    <button class="btn btnedit"><i class="fas fa-edit icon2"></i>تعديل</button>
+                                    <button class="btn btndel" ><i class="fas fa-trash icon3"></i> حذف</button>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td>
+                                      Hamdi
+                                  </td>
+                                  <td>
+                                      0999039010
+                                  </td>
+                                  <td>
+                                    <button class="btn btndisplay"><i class="fas fa-check-circle icon1"></i>عرض</button>
+                                    <button class="btn btnedit"><i class="fas fa-edit icon2"></i>تعديل</button>
+                                    <button class="btn btndel" ><i class="fas fa-trash icon3"></i> حذف</button>
+                                  </td>
+                              </tr>
+                              
+                          </tbody>
+                      </table>
+                       <!-- DataTable -->
+                      </div>
+                    </div>
+
+                    <!-- Advance Controls -->
+                    <div class="card cardshadow" style="margin-top: 20px;">
+                      <div class="card-header">
+                        <p style="color: #0b5438;font-family: Tajawal;" > Advance Controls</p>
+                      </div>
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-6">
+                            <div class="form-group">
+                              <label for="">إختر المدينة : </label>
+                              <select class="form-control selectpicker text-right"  data-show-subtext="true" data-live-search="true">
+                                <option data-tokens="china">الرياض</option>
+                                <option data-tokens="malayasia">خميس مشيط </option>
+                                <option data-tokens="singapore">أبها</option>
+                                </select>
+                            </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="form-group">
+                              <label for="">إختر عدة مدن  : </label>
+                              <select class="selectpicker" name="states[]" multiple="multiple">
+                                <option data-tokens="china">الرياض</option>
+                                <option data-tokens="malayasia">خميس مشيط </option>
+                                <option data-tokens="singapore">أبها</option>
+                              </select>
+                            </div>
+                          </div>
+
+                          <div class="col-6">
+                            <div class="form-group">
+                              <label for="">تاريخ    : </label>
+                              <input type="text" id="datepicker" class="form-control" >
+                            </div>
+                          </div>
+
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Sweet Alert-->
+                    <div class="card cardshadow" style="margin-top: 20px;">
+                      <div class="card-header">
+                        <p style="color: #0b5438;font-family: Tajawal;" > Sweet Alert </p>
+                      </div>
+                      <div class="card-body">
+                        <div class="form-inline">
+                          <button id="success" class="btn  sysbtn">نجــاح</button>&nbsp;
+                          <button id="error" class="btn  sysbtn">فشـــل</button>&nbsp;
+                          <button type="button" id="buttonconfirm" class="btn sysbtn"><i class="glyphicon glyphicon-trash"></i>تأكيد</button>&nbsp;
+                         
+
+                      </div>
+                      </div>
+                    </div>
+                    <!-- Sweet Alert-->
+
+                    <div class="card cardshadow" style="margin-top: 20px;">
+                      <div class="card-header">
+                        <p style="color: #0b5438;font-family: Tajawal;" > صندوق الإعدادات </p>
+                      </div>
+                      <div class="card-body">
+                        <div class="row">
+                          
+                          <div class="col-md-3">
+                            <div class="card cardshadow comp-card text-center">
+                              <div class="card-body">
+                                <div class="row align-items-center">
+                                  <div class="col-12">
+                                    <i class="fas fa-user-tie bg-c-green mb-3"></i>
+                                  </div>
+                                  <div class="col-12">
+                                    <h6 class="m-b-25"> <a href="#" style="color: gray;"> أنواع الموردين </a></h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="card cardshadow comp-card text-center">
+                              <div class="card-body">
+                                <div class="row align-items-center">
+                                  <div class="col-12">
+                                    <i class="fas fa-th-large bg-c-green mb-3"></i>
+                                  </div>
+                                  <div class="col-12">
+                                    <h6 class="m-b-25"> <a href="#" style="color: gray;"> الوحدات </a></h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="card cardshadow comp-card text-center">
+                              <div class="card-body">
+                                <div class="row align-items-center">
+                                  <div class="col-12">
+                                    <i class="fas fa-building bg-c-green mb-3"></i>
+                                  </div>
+                                  <div class="col-12">
+                                    <h6 class="m-b-25"> <a href="#" style="color: gray;"> الشركات المصنعة </a></h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="card cardshadow comp-card text-center">
+                              <div class="card-body">
+                                <div class="row align-items-center">
+                                  <div class="col-12">
+                                    <i class="fas fa-clipboard-check bg-c-green mb-3"></i>
+                                  </div>
+                                  <div class="col-12">
+                                    <h6 class="m-b-25"> <a href="#" style="color: gray;"> مجموعة المواد </a></h6>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+
+             
+            </div>
+            
+          </div>
+        </div>
+        
+
+
+
+
+
+
+  <footer>
+
+    <p> جميع الحقوق محفوظة لأمانة منطقة عسير © 2021 </p>
+
+    </div>
+
+  </footer>
+
+  <!--  Jquary  -->
+  <script type="text/javascript" src="vendors/js/jquery-3.6.0.js"></script>
+  <script src="vendors/js/jquery-ui.min.js"></script>
+
+  <!--  bootstrap   -->
+  <script src="vendors/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="vendors/js/bootstrap.bundle.js"></script>
+  
+
+  <!-- -->
+  
+              <!-- Datatable -->
+              <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+              <link rel="stylesheet" href="resources/css/buttons.dataTables.min.css">
+              <script src="https://cdn.datatables.net/buttons/1.7.1/js/dataTables.buttons.min.js"></script>
+              <script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.print.min.js"></script>
+              <script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.html5.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  
+              <!--Sweet Alert-->
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+
+              <!--custom js-->
+              <script src="resources/js/main.js"></script>
+              <script src="resources/js/js.js"></script>
+
+              <!--search ddl-->
+              <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+              <script>
+                $(document).ready(function() {
+                    $('.selectpicker').select2();
+                });
+              </script>
+              <!--search ddl-->
+
+              <!--Datapicker-->
+              <script>
+                $(document).ready(function(){
+                  $('#datepicker').datepicker();
+                });
+              </script>
+              <!--Datapicker-->
+</body>
+
+
+</html>
